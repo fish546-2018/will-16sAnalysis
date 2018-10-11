@@ -1,0 +1,31 @@
+---
+title: "BlastTutorialRmD"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{bash}
+#where am I?
+pwd
+
+#confirming blast install in $PATH
+blastx -h
+
+mkdir \ 
+curl \
+ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz \
+> ./blastdb/uniprot_sprot.fasta.gz
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
