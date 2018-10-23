@@ -1,0 +1,19 @@
+sample-id,absolute-filepath,direction
+# Lines starting with '#' are ignored and can be used to create
+# "comments" or even "comment out" entries
+A2,$PWD/data/Yue/raw.splitA_2.1.fq,forward
+A2,$PWD/data/Yue/raw.splitA_2.2.fq,reverse
+A3,$PWD/data/Yue/raw.splitA_3.1.fq,forward
+A3,$PWD/data/Yue/raw.splitA_3.2.fq,reverse
+A4,$PWD/data/Yue/raw.splitA_4.1.fq,forward
+A4,$PWD/data/Yue/raw.splitA_4.2.fq,reverse
+A5,$PWD/data/Yue/raw.splitA_5.1.fq,forward
+A5,$PWD/data/Yue/raw.splitA_5.2.fq,reverse
+F10,$PWD/data/Yue/raw.splitF_10.1.fq,forward
+F10,$PWD/data/Yue/raw.splitF_10.2.fq,reverse
+F11,$PWD/data/Yue/raw.splitF_11.1.fq,forward
+F11,$PWD/data/Yue/raw.splitF_11.2.fq,reverse
+F13,$PWD/data/Yue/raw.splitF_13.1.fq,forward
+F13,$PWD/data/Yue/raw.splitF_13.2.fq,reverse
+F15,$PWD/data/Yue/raw.splitF_15.1.fq,forward
+F15,$PWD/data/Yue/raw.splitF_15.2.fq,reverse
