@@ -1,5 +1,5 @@
 # README
-###### (updated October 26, 2018)
+###### (updated November 2, 2018)
 
 ## will-Chiru16S: project repository for FISH546 Autumn 2018##
 
@@ -19,5 +19,7 @@ My repository includes the `Chiru16S.ipynb` Jupyter notebook, which includes the
 
 ### 3. A projected timeline for what you plan to accomplish in weeks 4 and 5.
 
-  *  **week 4:** Complete sequence trimming(+), filtering(+), chimera checking, and pre-processing with Yue's data
-  *  **week 5:** Complete QIIME2 workflow with Yue's data, generating PCoA plots in Emperor. Possibly start PERMANOVA testing.
+  *  **week 4:** Complete sequence trimming(+), filtering(+), chimera checking (+), and pre-processing with Yue's data
+  *  **week 5:** Complete QIIME2 workflow with Yue's data(+), generating PCoA plots in Emperor(+). Start PERMANOVA testing(+). Differential abundance testing with Gneiss. Begin functional profiling with PICRUSt.
+  *  **week 6:** Finish functional profiling with PICRUSt.
+  *  **week 7:** Download and run additional dataset to test ease of translation.
