@@ -15,7 +15,7 @@
 
 ### 2. A description of your repository structure, including what each directory includes, and describing any unique files.
 
-My repository includes the `Chiru16S.ipynb` Jupyter notebook, which includes the analysis code I use for this project. Any scripts passed to HYAK are included in the `scripts` directory. `data` includes all raw and processed data, divided between my own data, test data from a published study (NEWAtest), and Yue's data. `analyses` includes all visualizations generated in QIIME2, which relies heavily on `.qzv` visualization files for data interpretation.
+My repository includes the `Chiru16S.ipynb` Jupyter notebook, which includes the analysis code I use for this project. Code from `Chiru16S.ipynb` will be adapted to a new Jupyter notebook upon receipt of elephant microbiome data. Any scripts passed to HYAK are included in the `scripts` directory. `data` includes all raw and processed data, divided between my own data, test data from a published study (NEWAtest), and Yue's data. `analyses` includes all visualizations generated in QIIME2, which relies heavily on `.qzv` visualization files for data interpretation.
 
 ### 3. A projected timeline for project completion through week 10.
 (+) indicates completed
