@@ -136,19 +136,23 @@ $(document).ready(function () {
 <h3>1. General Description of your project including goals and objectives</h3>
 <p>I will begin my project by doing microbiome analysis on 16S amplicons from Yue’s Tibetan chiru fecal samples. The goal of this will be to become familiar with the best practices of bioinformatics work and build an initial pipeline for later microbiome analyses.</p>
 <p>My greater goal is to have my own data before the end of the quarter, which will be gut microbiome samples from African savannah, forest, and hybrid elephants spanning almost 20 years. The composition of these microbiomes has not been extensively studied, particularly in the case of hybrids. This study may yield greater insight into the gut microbial community of elephants and how it may vary continuously across hybrid zones.</p>
-<p>I will use the pipeline I build around Yue’s samples for these elephant samples, generating alpha and beta diversity analyses and PCoA plots. I am very comfortable with QIIME2, which I will use for initial work, but I want to develop my ability to use <code>phyloseq</code> and <code>vegan</code> for enhanced statistical analysis capabilities.</p>
+<p>I will use the pipeline I build around Yue’s samples for these elephant samples, generating diversity analyses, differential abundance plots, and PICRUSt functional analyses. I am comfortablewith QIIME2, which I will use for initial work, but I want to develop my ability to use <code>phyloseq</code> and <code>vegan</code> for enhanced statistical analysis capabilities.</p>
 </div>
 <div id="a-description-of-your-repository-structure-including-what-each-directory-includes-and-describing-any-unique-files." class="section level3">
 <h3>2. A description of your repository structure, including what each directory includes, and describing any unique files.</h3>
-<p>My repository includes the <code>Chiru16S.ipynb</code> Jupyter notebook, which includes the analysis code I use for this project. Any scripts passed to HYAK are included in the <code>scripts</code> directory. <code>data</code> includes all raw and processed data, divided between my own data, test data from a published study (NEWAtest), and Yue’s data. <code>analyses</code> includes all visualizations generated in QIIME2, which relies heavily on <code>.qvz</code> visualization files for data interpretation.</p>
+<p>My repository includes the <code>Chiru16S.ipynb</code> Jupyter notebook, which includes the analysis code I use for this project. Any scripts passed to HYAK are included in the <code>scripts</code> directory. <code>data</code> includes all raw and processed data, divided between my own data, test data from a published study (NEWAtest), and Yue’s data. <code>analyses</code> includes all visualizations generated in QIIME2, which relies heavily on <code>.qzv</code> visualization files for data interpretation.</p>
 </div>
-<div id="a-projected-timeline-for-what-you-plan-to-accomplish-in-weeks-4-and-5." class="section level3">
-<h3>3. A projected timeline for what you plan to accomplish in weeks 4 and 5.</h3>
+<div id="a-projected-timeline-for-project-completion-through-week-10." class="section level3">
+<h3>3. A projected timeline for project completion through week 10.</h3>
+<p>(+) indicates completed</p>
 <ul>
 <li><strong>week 4:</strong> Complete sequence trimming(+), filtering(+), chimera checking (+), and pre-processing with Yue’s data</li>
-<li><strong>week 5:</strong> Complete QIIME2 workflow with Yue’s data(+), generating PCoA plots in Emperor(+). Start PERMANOVA testing(+). Differential abundance testing with Gneiss. Begin functional profiling with PICRUSt.</li>
+<li><strong>week 5:</strong> Complete QIIME2 workflow with Yue’s data(+), generating PCoA plots in Emperor(+). Start PERMANOVA testing(+). Differential abundance testing with Gneiss(+). Begin functional profiling with PICRUSt(+).</li>
 <li><strong>week 6:</strong> Finish functional profiling with PICRUSt.</li>
-<li><strong>week 7:</strong> Download and run additional dataset to test ease of translation.</li>
+<li><strong>week 7:</strong> Download and do partial run additional dataset to test ease of translation.</li>
+<li><strong>week 8:</strong> Set up mox account with HPC Club</li>
+<li><strong>week 9:</strong> Run second data set through mox, run elephant data (hopefully)</li>
+<li><strong>week 10:</strong> Run elephant data, polish notebooks/repo for final submission</li>
 </ul>
 </div>
 </div>
