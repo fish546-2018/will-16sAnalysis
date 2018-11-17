@@ -1,0 +1,11 @@
+sample-id,absolute-filepath,direction
+SRR1202114,/Users/williamsano/Documents/GitHub/will-Chiru16S/data/SRA_elephant/raw/SRR1202114_1.fastq,forward
+SRR1202114,/Users/williamsano/Documents/GitHub/will-Chiru16S/data/SRA_elephant/raw/SRR1202114_2.fastq,reverse
+SRR1685965,/Users/williamsano/Documents/GitHub/will-Chiru16S/data/SRA_elephant/raw/SRR1685965_1.fastq,forward
+SRR1685965,/Users/williamsano/Documents/GitHub/will-Chiru16S/data/SRA_elephant/raw/SRR1685965_2.fastq,reverse
+SRR1204491,/Users/williamsano/Documents/GitHub/will-Chiru16S/data/SRA_elephant/raw/SRR1204491_1.fastq,forward
+SRR1204491,/Users/williamsano/Documents/GitHub/will-Chiru16S/data/SRA_elephant/raw/SRR1204491_2.fastq,reverse
+SRR1204493,/Users/williamsano/Documents/GitHub/will-Chiru16S/data/SRA_elephant/raw/SRR1204493_1.fastq,forward
+SRR1204493,/Users/williamsano/Documents/GitHub/will-Chiru16S/data/SRA_elephant/raw/SRR1204493_2.fastq,reverse
+SRR1685970,/Users/williamsano/Documents/GitHub/will-Chiru16S/data/SRA_elephant/raw/SRR1685970_1.fastq,forward
+SRR1685970,/Users/williamsano/Documents/GitHub/will-Chiru16S/data/SRA_elephant/raw/SRR1685970_2.fastq,reverse
