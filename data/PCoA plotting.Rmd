@@ -7,31 +7,70 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 path_to_coordinates <- "/Users/williamsano/Documents/GitHub/will-Chiru16S/analyses/Yue/se-excl-mitochloro-corediv-26537/"
 PC_names <- c("PC1","PC2","PC3","PC4","PC5","PC6","PC7","group")
-
-coul <- c("red", "blue")
+subtitle <- "A vs. F"
+coul <- c("red","blue","green","black")
 ```
 
 ```{r importing ordination files}
 bray_curtis_coords <- read.table(file = paste(path_to_coordinates,"export/bray_curtis_pcoa_results/coordinates.txt", sep = ""),sep = "\t")
+pcval_bray_curtis <- read.csv(file = paste(path_to_coordinates,"export/bray_curtis_pcoa_results/pc_values.txt", sep = ""),sep = "\t", header = FALSE)
   rownames(bray_curtis_coords) <- bray_curtis_coords[,1]
   bray_curtis_coords <- bray_curtis_coords[,-1]
   colnames(bray_curtis_coords) <- PC_names
   bray_curtis_coords[,8] <- substr(row.names(bray_curtis_coords), 1, 1)
-  bray_curtis_pcoa <- s.class(bray_curtis_coords[,1:2], fac = as.factor(bray_curtis_coords[,8]), cell = 2, axesell = TRUE, cstar = 0, col = coul, clabel = FALSE)
+  bray_curtis_pcoa <- s.class(bray_curtis_coords[,1:2], 
+                              fac = as.factor(bray_curtis_coords[,8]), 
+                              cell = 2, axesell = TRUE, 
+                              cstar = 0, 
+                              col = coul, 
+                              clabel = FALSE,
+                              addaxes = TRUE,
+                              xlim = c(max(abs(bray_curtis_coords[,1]))*1.2,(max(abs(bray_curtis_coords[,1])))*-1)*1.2,
+                              ylim = c(max(abs(bray_curtis_coords[,2]))*1.2, (max(abs(bray_curtis_coords[,2])))*-1)*1.2)
+  title(main = "PCoA - Bray-Curtis", 
+      sub = subtitle, 
+      xlab = paste("PC1 -",round((pcval_bray_curtis[1]*100),digits = 2), "%", sep = ""),
+      ylab = paste("PC2 -",round((pcval_bray_curtis[2]*100),digits = 2), "%", sep = ""))
 
 weighted_unifrac_coords <- read.table(file = paste(path_to_coordinates,"export/weighted_unifrac_pcoa_results/coordinates.txt", sep = ""),sep = "\t")
+pcval_weighted_unifrac <- read.csv(file = paste(path_to_coordinates,"export/weighted_unifrac_pcoa_results/pc_values.txt", sep = ""),sep = "\t", header = FALSE)
    rownames(weighted_unifrac_coords) <- weighted_unifrac_coords[,1]
    weighted_unifrac_coords <- weighted_unifrac_coords[,-1]
    colnames(weighted_unifrac_coords) <- PC_names
    weighted_unifrac_coords[,8] <- substr(row.names(weighted_unifrac_coords), 1, 1)
-   weighted_unifrac_pcoa <- s.class(weighted_unifrac_coords[,1:2], fac = as.factor(weighted_unifrac_coords[,8]), cell = 2, axesell = FALSE, csta = 0, col = coul, clabel = FALSE)
+   weighted_unifrac_pcoa <- s.class(weighted_unifrac_coords[,1:2], 
+                                    fac = as.factor(weighted_unifrac_coords[,8]), 
+                                    cell = 2, axesell = TRUE,
+                                    csta = 0, 
+                                    col = coul, 
+                                    clabel = FALSE,
+                                    addaxes = TRUE,
+                                    xlim = c(max(abs(weighted_unifrac_coords[,1]))*1.2,(max(abs(weighted_unifrac_coords[,1])))*-1)*1.2,
+                                    ylim = c(max(abs(weighted_unifrac_coords[,2]))*1.2, (max(abs(weighted_unifrac_coords[,2])))*-1)*1.2)
+   title(main = "PCoA - Weighted UniFrac", 
+      sub = subtitle, 
+      xlab = paste("PC1 -",round((pcval_weighted_unifrac[1]*100),digits = 2), "%", sep = ""),
+      ylab = paste("PC2 -",round((pcval_weighted_unifrac[2]*100),digits = 2), "%", sep = ""))
 
 unweighted_unifrac_coords <- read.table(file =paste(path_to_coordinates,"export/unweighted_unifrac_pcoa_results/coordinates.txt", sep = ""),sep = "\t")
+pcval_unweighted_unifrac <- read.csv(file = paste(path_to_coordinates,"export/unweighted_unifrac_pcoa_results/pc_values.txt", sep = ""),sep = "\t", header = FALSE)
     rownames(unweighted_unifrac_coords) <- unweighted_unifrac_coords[,1]
     unweighted_unifrac_coords <- unweighted_unifrac_coords[,-1]
     colnames(unweighted_unifrac_coords) <- PC_names
     unweighted_unifrac_coords[,8] <- substr(row.names(unweighted_unifrac_coords), 1, 1)
-    unweighted_unifrac_pcoa <- s.class(unweighted_unifrac_coords[,1:2], fac = as.factor(unweighted_unifrac_coords[,8]), cell = 2, axesell = FALSE, csta = 0, col = coul, clabel = FALSE)
+    unweighted_unifrac_pcoa <- s.class(unweighted_unifrac_coords[,1:2], 
+                                   fac = as.factor(unweighted_unifrac_coords[,8]), 
+                                   cell = 2, axesell = TRUE,
+                                   csta = 0,
+                                   col = coul, 
+                                   clabel = FALSE,
+                                   addaxes = TRUE,
+                                   xlim = c(max(abs(unweighted_unifrac_coords[,1]))*1.2,(max(abs(unweighted_unifrac_coords[,1])))*-1)*1.2,
+                                  ylim = c(max(abs(unweighted_unifrac_coords[,2]))*1.2, (max(abs(unweighted_unifrac_coords[,2])))*-1)*1.2)
+    title(main = "PCoA - Unweighted UniFrac", 
+      sub = subtitle, 
+      xlab = paste("PC1 -",round((pcval_unweighted_unifrac[1]*100),digits = 2), "%", sep = ""),
+      ylab = paste("PC2 -",round((pcval_unweighted_unifrac[2]*100),digits = 2), "%", sep = ""))
 ```
 
 ## Including Plots
@@ -46,12 +85,5 @@ plot(weighted_unifrac_pcoa)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 ```{r}
-xy <- cbind.data.frame(x = runif(200, -1, 1), y = runif(200, -1, 1))
-posi <- factor(xy$x > 0) : factor(xy$y > 0)
-coul <- c("black", "red", "green", "blue")
 
-library(ade4)
-pca <- princomp(xy)
-s.class(pca$scores[, 1:2], fac = posi, cell = 2, axesell = FALSE, csta = 0, col = coul, clabel = FALSE)
-```
 
