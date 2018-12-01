@@ -1,7 +1,7 @@
 # README
 ###### (updated November 30, 2018)
 
-## will-Chiru16S: project repository for FISH546 Autumn 2018##
+## will-Chiru16S: project repository for FISH546 Autumn 2018
 
 ***
 
