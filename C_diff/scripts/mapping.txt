@@ -1,0 +1,81 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	SRA_Sample	Sample_Name	geo_loc_name	host_age	host_disease	host_sex	Cdiff_detection_culture	ribotype	toxin_pcr_ribotype	toxin_from_stool	Cdiff_detection_NGS	detection_conformity	diarrhea	concomitant_diseases	ab_use_3months'
+#q2:types	categorical	categorical	categorical	categorical	categorical	numeric	categorical	categorical	categorical	categorical	categorical	categorical	categorical	categorical	categorical	categorical	categorical
+SRR5040731	AAAAAAAAA	AAAAAAAAA	SRS1811065	patient_001	Germany	75	none	male	positive	27	A+B+CDT+	positive	positive	TRUE	yes	none	yes
+SRR5040704	AAAAAAAAA	AAAAAAAAA	SRS1811039	patient_002	Germany	79	none	female	positive	001/072	A+B+CDT_	positive	positive	TRUE	yes	none	no
+SRR5040724	AAAAAAAAA	AAAAAAAAA	SRS1811059	patient_003	Germany	87	none	male	negative	NA	NA	NA	negative	TRUE	yes	none	yes
+SRR5040686	AAAAAAAAA	AAAAAAAAA	SRS1811021	patient_004	Germany	93	none	female	negative	NA	NA	NA	positive	FALSE	yes	none	yes
+SRR5040729	AAAAAAAAA	AAAAAAAAA	SRS1811064	patient_005	Germany	75	none	male	negative	NA	NA	NA	negative	TRUE	yes	none	yes
+SRR5040703	AAAAAAAAA	AAAAAAAAA	SRS1811038	patient_006	Germany	62	none	female	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040727	AAAAAAAAA	AAAAAAAAA	SRS1811062	patient_007	Germany	49	none	male	negative	NA	NA	NA	negative	TRUE	no	none	yes
+SRR5040677	AAAAAAAAA	AAAAAAAAA	SRS1811012	patient_008	Germany	69	none	male	negative	NA	NA	NA	negative	TRUE	yes	none	no
+SRR5040713	AAAAAAAAA	AAAAAAAAA	SRS1811048	patient_009	Germany	77	none	male	positive	001/072	A+B+CDT_	negative	positive	TRUE	yes	none	yes
+SRR5040744	AAAAAAAAA	AAAAAAAAA	SRS1811078	patient_010	Germany	63	none	female	negative	NA	NA	NA	positive	FALSE	yes	none	no
+SRR5040732	AAAAAAAAA	AAAAAAAAA	SRS1811067	patient_011	Germany	64	none	female	negative	NA	NA	NA	negative	TRUE	yes	none	no
+SRR5040667	AAAAAAAAA	AAAAAAAAA	SRS1811002	patient_012	Germany	75	none	female	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040672	AAAAAAAAA	AAAAAAAAA	SRS1811007	patient_013	Germany	75	none	female	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040696	AAAAAAAAA	AAAAAAAAA	SRS1811031	patient_014	Germany	65	none	female	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040723	AAAAAAAAA	AAAAAAAAA	SRS1811058	patient_015	Germany	71	none	male	negative	NA	NA	NA	negative	TRUE	no	none	yes
+SRR5040733	AAAAAAAAA	AAAAAAAAA	SRS1811068	patient_016	Germany	79	none	male	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040679	AAAAAAAAA	AAAAAAAAA	SRS1811014	patient_017	Germany	56	none	male	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040705	AAAAAAAAA	AAAAAAAAA	SRS1811040	patient_018	Germany	77	noro virus	male	positive	001/072	A+B+CDT_	negative	positive	TRUE	yes	noro virus	yes
+SRR5040702	AAAAAAAAA	AAAAAAAAA	SRS1811037	patient_019	Germany	31	none	female	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040711	AAAAAAAAA	AAAAAAAAA	SRS1811046	patient_020	Germany	57	noro virus	male	positive	78	A+B+CDT+	negative	positive	TRUE	yes	noro virus	yes
+SRR5040740	AAAAAAAAA	AAAAAAAAA	SRS1811076	patient_021	Germany	85	none	male	negative	NA	NA	NA	positive	FALSE	yes	none	yes
+SRR5040728	AAAAAAAAA	AAAAAAAAA	SRS1811063	patient_022	Germany	84	none	male	negative	NA	NA	NA	positive	FALSE	no	none	yes
+SRR5040673	AAAAAAAAA	AAAAAAAAA	SRS1811008	patient_023	Germany	57	noro virus	male	positive	78	A+B+CDT+	negative	positive	TRUE	yes	noro virus	yes
+SRR5040681	AAAAAAAAA	AAAAAAAAA	SRS1811016	patient_024	Germany	80	noro virus	male	negative	NA	NA	NA	negative	TRUE	yes	noro virus	yes
+SRR5040684	AAAAAAAAA	AAAAAAAAA	SRS1811019	patient_025	Germany	59	none	male	positive	78	A+B+CDT+	negative	positive	TRUE	yes	none	yes
+SRR5040683	AAAAAAAAA	AAAAAAAAA	SRS1811018	patient_026	Germany	82	none	male	positive	001/072	A+B+CDT_	negative	positive	TRUE	yes	none	yes
+SRR5040698	AAAAAAAAA	AAAAAAAAA	SRS1811033	patient_027	Germany	81	none	female	negative	NA	NA	NA	positive	FALSE	no	none	NA
+SRR5040741	AAAAAAAAA	AAAAAAAAA	SRS1811077	patient_028	Germany	72	none	female	negative	NA	NA	NA	negative	TRUE	yes	none	yes
+SRR5040720	AAAAAAAAA	AAAAAAAAA	SRS1811055	patient_029	Germany	91	none	male	positive	2	A+B+CDT_	positive	positive	TRUE	yes	none	yes
+SRR5040675	AAAAAAAAA	AAAAAAAAA	SRS1811010	patient_030	Germany	84	none	female	positive	001/072	A+B+CDT_	positive	positive	TRUE	yes	none	yes
+SRR5040707	AAAAAAAAA	AAAAAAAAA	SRS1811042	patient_031	Germany	85	noro virus	female	positive	78	A+B+CDT+	negative	negative	TRUE	yes	noro virus	yes
+SRR5040719	AAAAAAAAA	AAAAAAAAA	SRS1811054	patient_032	Germany	70	none	female	positive	2	A+B+CDT_	negative	positive	TRUE	yes	none	yes
+SRR5040708	AAAAAAAAA	AAAAAAAAA	SRS1811043	patient_033	Germany	73	none	male	positive	001/072	A+B+CDT_	negative	positive	TRUE	yes	none	yes
+SRR5040685	AAAAAAAAA	AAAAAAAAA	SRS1811020	patient_034	Ghana	45	none	male	negative	NA	NA	NA	positive	FALSE	no	none	Amoxicillin
+SRR5040743	AAAAAAAAA	AAAAAAAAA	SRS1811079	patient_035	Ghana	47	suspected cholera	male	negative	NA	NA	NA	negative	TRUE	yes	suspected cholera	no
+SRR5040676	AAAAAAAAA	AAAAAAAAA	SRS1811011	patient_036	Ghana	9	acute abdomen (suspected typhoid)	male	negative	NA	NA	NA	negative	TRUE	no	acute abdomen (suspected typhoid)	no
+SRR5040669	AAAAAAAAA	AAAAAAAAA	SRS1811004	patient_037	Ghana	1.17	rashes	female	positive	SLO 233	A+B+CDT_	positive	positive	TRUE	no	ETEC/LT	Cloxacillin
+SRR5040694	AAAAAAAAA	AAAAAAAAA	SRS1811029	patient_038	Ghana	2	rashes	female	positive	084 (CE)	A_B_CDT_	negative	positive	TRUE	no	ETEC/LT	Amoxicillin
+SRR5040734	AAAAAAAAA	AAAAAAAAA	SRS1811069	patient_039	Ghana	72	none	male	positive	SLO 095	A_B_CDT_	negative	positive	TRUE	no	none	no
+SRR5040668	AAAAAAAAA	AAAAAAAAA	SRS1811003	patient_040	Ghana	30	acute abdomen (suspected typhoid)	female	positive	011/049	A_B_CDT_	negative	positive	TRUE	no	acute abdomen	no
+SRR5040687	AAAAAAAAA	AAAAAAAAA	SRS1811022	patient_041	Ghana	1.17	"malaria, rashes"	male	positive	SLO091	A_B_CDT_	negative	positive	TRUE	yes	"malaria, rota virus, ETEC/LT"	no
+SRR5040737	AAAAAAAAA	AAAAAAAAA	SRS1811072	patient_042	Ghana	24	none	female	positive	097 (CE)	A_B_CDT_	negative	negative	TRUE	no	none	"Metronidazole, Ciprofloxacin"
+SRR5040718	AAAAAAAAA	AAAAAAAAA	SRS1811053	patient_043	Ghana	5	rashes	male	positive	084 (CE)	A_B_CDT_	negative	positive	TRUE	no	Giardia	no
+SRR5040736	AAAAAAAAA	AAAAAAAAA	SRS1811071	patient_044	Ghana	0.67	rashes	female	positive	SLO 235	A_B_CDT_	negative	negative	TRUE	no	Shigella	no
+SRR5040700	AAAAAAAAA	AAAAAAAAA	SRS1811035	patient_045	Ghana	34	none	female	negative	NA	NA	NA	positive	FALSE	yes	none	no
+SRR5040722	AAAAAAAAA	AAAAAAAAA	SRS1811057	patient_046	Ghana	1.42	"malaria, chest infection"	female	negative	NA	NA	NA	negative	TRUE	yes	"malaria, chest infection"	no
+SRR5040710	AAAAAAAAA	AAAAAAAAA	SRS1811045	patient_047	Ghana	44	none	male	negative	NA	NA	NA	positive	FALSE	yes	none	no
+SRR5040701	AAAAAAAAA	AAAAAAAAA	SRS1811036	patient_048	Ghana	56	chest infection	female	negative	NA	NA	NA	positive	FALSE	yes	chest infection	Amoxicillin in the last 6 months
+SRR5040691	AAAAAAAAA	AAAAAAAAA	SRS1811026	patient_049	Ghana	84	none	male	negative	NA	NA	NA	positive	FALSE	yes	none	"Metronidazole, Ampicillin"
+SRR5040670	AAAAAAAAA	AAAAAAAAA	SRS1811005	patient_050	Ghana	52	none	male	negative	NA	NA	NA	positive	FALSE	no	none	Metronidazole in the last 6 months
+SRR5040716	AAAAAAAAA	AAAAAAAAA	SRS1811051	patient_051	Ghana	78	none	male	negative	NA	NA	NA	negative	TRUE	no	none	no
+SRR5040714	AAAAAAAAA	AAAAAAAAA	SRS1811049	patient_052	Ghana	41	none	female	negative	NA	NA	NA	negative	TRUE	no	none	no
+SRR5040695	AAAAAAAAA	AAAAAAAAA	SRS1811030	patient_053	Ghana	28	none	female	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040688	AAAAAAAAA	AAAAAAAAA	SRS1811023	patient_054	Ghana	72	none	female	negative	NA	NA	NA	negative	TRUE	no	none	no
+SRR5040690	AAAAAAAAA	AAAAAAAAA	SRS1811025	patient_055	Ghana	22	hepatitis B	female	positive	SLO 233	A+B+CDT_	positive	positive	TRUE	yes	Campylobacter	no
+SRR5040699	AAAAAAAAA	AAAAAAAAA	SRS1811034	patient_056	Ghana	40	none	female	positive	084 (CE)	A_B_CDT_	negative	positive	TRUE	yes	none	Metronidazole
+SRR5040730	AAAAAAAAA	AAAAAAAAA	SRS1811066	patient_057	Ghana	1.33	malaria	female	positive	084 (CE)	A_B_CDT_	negative	negative	TRUE	yes	"malaria, Campylobacter"	no
+SRR5040678	AAAAAAAAA	AAAAAAAAA	SRS1811013	patient_058	Indonesia	3	none	male	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040725	AAAAAAAAA	AAAAAAAAA	SRS1811060	patient_059	Indonesia	13	none	male	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040689	AAAAAAAAA	AAAAAAAAA	SRS1811024	patient_060	Indonesia	65	none	male	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040666	AAAAAAAAA	AAAAAAAAA	SRS1811001	patient_061	Indonesia	12	none	male	negative	NA	NA	NA	negative	TRUE	yes	none	no
+SRR5040739	AAAAAAAAA	AAAAAAAAA	SRS1811074	patient_062	Indonesia	3	none	female	negative	NA	NA	NA	negative	TRUE	yes	none	no
+SRR5040682	AAAAAAAAA	AAAAAAAAA	SRS1811017	patient_063	Indonesia	20	none	female	negative	NA	NA	NA	negative	TRUE	yes	none	no
+SRR5040693	AAAAAAAAA	AAAAAAAAA	SRS1811028	patient_064	Indonesia	56	none	female	positive	17	A_B+CDT_	negative	positive	TRUE	yes	none	no
+SRR5040712	AAAAAAAAA	AAAAAAAAA	SRS1811047	patient_065	Indonesia	1	none	male	negative	NA	NA	NA	positive	FALSE	yes	none	no
+SRR5040706	AAAAAAAAA	AAAAAAAAA	SRS1811041	patient_066	Indonesia	70	none	female	negative	NA	NA	NA	negative	TRUE	yes	none	no
+SRR5040738	AAAAAAAAA	AAAAAAAAA	SRS1811073	patient_067	Indonesia	26	none	female	negative	NA	NA	NA	negative	TRUE	yes	none	no
+SRR5040709	AAAAAAAAA	AAAAAAAAA	SRS1811044	patient_068	Indonesia	46	none	male	negative	NA	NA	NA	positive	FALSE	yes	none	no
+SRR5040680	AAAAAAAAA	AAAAAAAAA	SRS1811015	patient_069	Indonesia	53	none	female	negative	NA	NA	NA	positive	FALSE	yes	none	no
+SRR5040735	AAAAAAAAA	AAAAAAAAA	SRS1811070	patient_070	Indonesia	44	none	male	positive	53	A+B+CDT_	negative	positive	TRUE	no	none	no
+SRR5040742	AAAAAAAAA	AAAAAAAAA	SRS1811075	patient_071	Indonesia	0.75	none	female	positive	SLO 236	A+B+CDT_	positive	positive	TRUE	no	none	no
+SRR5040697	AAAAAAAAA	AAAAAAAAA	SRS1811032	patient_072	Indonesia	10	none	female	positive	SLO 160	A+B+CDT_	negative	positive	TRUE	yes	none	no
+SRR5040671	AAAAAAAAA	AAAAAAAAA	SRS1811006	patient_073	Indonesia	0.16	none	male	positive	10	A_B_CDT_	negative	positive	TRUE	yes	none	no
+SRR5040726	AAAAAAAAA	AAAAAAAAA	SRS1811061	patient_074	Indonesia	11	none	female	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040721	AAAAAAAAA	AAAAAAAAA	SRS1811056	patient_075	Indonesia	100	none	male	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040674	AAAAAAAAA	AAAAAAAAA	SRS1811009	patient_076	Indonesia	85	none	female	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040692	AAAAAAAAA	AAAAAAAAA	SRS1811027	patient_077	Indonesia	67	none	male	negative	NA	NA	NA	positive	FALSE	yes	none	no
+SRR5040715	AAAAAAAAA	AAAAAAAAA	SRS1811050	patient_078	Indonesia	41	none	female	negative	NA	NA	NA	positive	FALSE	no	none	no
+SRR5040717	AAAAAAAAA	AAAAAAAAA	SRS1811052	patient_079	Indonesia	49	none	female	negative	NA	NA	NA	positive	FALSE	no	none	no
