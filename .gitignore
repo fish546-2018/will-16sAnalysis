@@ -5,3 +5,4 @@ data/silva-132-99-nb-classifier.qza
 scripting-exercise/analyses
 data/SRA_elephant
 C_diff/data
+**/*.icloud
